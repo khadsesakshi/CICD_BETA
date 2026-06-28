@@ -8,4 +8,4 @@ def test_home_page():
 
     assert response.status_code == 200
 
-    assert b"Welcome to ci/cd Project" in response.data
+    assert b"Welcome to CICD Project" in response.data
