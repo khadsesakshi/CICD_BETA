@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to ci/cd Project"
+    return "Welcome to CICD Project"
 
 if __name__ == "__main__":
     app.run(debug=True)
